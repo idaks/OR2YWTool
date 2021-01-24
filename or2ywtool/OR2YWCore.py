@@ -988,9 +988,9 @@ if __name__ == '__main__':
     """
     test vg
     """
-    or2ywfile = OR2YWFileProcessor().generate_yw_file('../graph_analysis/menu_repair.json', 'repair_parallel.yw',
-                                                      type='parallel')
-    # or2ywfile = OR2YWFileProcessor().generate_yw_file('../graph_analysis/menu_repair.json', 'repair_linear.yw',
-    #                                                   )
+    # or2ywfile = OR2YWFileProcessor().generate_yw_file('../../example/exp1.json', '../../example/yw/exp1_parallel.yw',
+    #                                                   type='parallel')
+    or2ywfile = OR2YWFileProcessor().generate_yw_file('../../example/exp1.json', '../../example/yw/exp1_linear.yw',
+                                                      )
     # or2ywf = OR2YWFileProcessor()
     # or2ywf.generate_vg(input_file="test.json", output_file="test.vg")
